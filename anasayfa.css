@@ -1,0 +1,235 @@
+.header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+}
+
+
+.headerli {
+    float: left;
+    list-style-type: none;
+
+}
+
+.headerli a {
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-right: -20px;
+    color:  #000;;
+}
+
+.headerli a:hover {
+    text-decoration: underline;
+}
+
+
+.signin-button{
+    color: #fff;
+
+
+
+}
+
+.container {
+
+    text-align: center;
+    margin: 100px;
+    background-color: transparent;
+
+}
+
+
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 24px;
+}
+
+.search-area:hover {
+    box-shadow: 0 2px 3px 0 rgba(238, 219, 219, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    padding: 5px 15px 0 16px;
+    padding-left: 14px;
+  }
+  
+  
+  /* search and voice svg  */
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .voice-img {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: -5px;
+    
+  }
+  
+  .voice-img span{
+    height: 23px;
+    width: 24px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  /* input */
+  .input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+  }
+  
+  .input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: none;
+    width: 480px;
+  }
+  
+  /*  google search button */
+  .googlesearch {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color:#5f6368;
+    height: 36px;
+  }
+
+  /* feeling lucky button */
+.feelinglucky {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: #f8f9fa;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  height: 36px;
+  color:#5f6368;  
+}
+
+
+
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #F2F2F2;
+
+}
+
+.footerli {
+    float: left;
+    list-style-type: none;
+}
+
+.footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+}
+
+.footerli a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
